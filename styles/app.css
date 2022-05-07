@@ -1,7 +1,60 @@
+:root {
+	--branding-color: #6c63ff;
+	--secondary-color: #f9f9f9;
+	--heading-font-family: "Alice", serif;
+	--deafault-font-family: "Comfortaa", cursive;
+}
+
+body {
+	font-family: var(--deafault-font-family);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: var(--heading-font-family);
+	color: black;
+	font-weight: bold;
+}
+
 h1 {
-	font-family: "Alice", serif;
+	font-size: 96px;
 }
 
 p {
-	font-family: "Comfortaa", cursive;
+	font-weight: normal;
+}
+
+.hero {
+	background: var(--secondary-color);
+	text-align: center;
+	padding: 100px 20px;
+	/* padding to push the welcome content lower on the view field */
+}
+
+.hero p {
+	font-family: var(--deafault-font-family);
+	font-size: 36px;
+	font-weight: bold;
+	margin: 0;
+	color: #272142;
+}
+
+.hero h2 {
+	font-family: var(--heading-font-family);
+	font-weight: normal;
+	font-size: 24px;
+	font-size: 2;
+}
+
+.btn-branding {
+	background: var(--branding-color);
+	border-radius: 4px;
+	color: white;
+	font-size: 18px;
+	line-height: 27px;
+	padding: 15px 30px;
 }
