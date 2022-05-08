@@ -57,6 +57,24 @@ p {
 	line-height: 1.5;
 }
 
+.about-section {
+	padding: 100px 20px;
+}
+
+.about-section h1 {
+	font-size: 64px;
+	line-height: 80px;
+}
+
+.about-section h2 {
+	font-size: 18px;
+	font-family: var(--deafault-font-family);
+}
+
+.about-section-content {
+	margin: 30px;
+}
+
 .btn-branding {
 	background: var(--branding-color);
 	border-radius: 4px;
@@ -82,11 +100,16 @@ p {
 @media (max-width: 992px) {
 	h1 {
 		font-size: 45px;
-		line-height: 2;
+		line-height: 56px;
 	}
 
 	h2 {
 		font-size: 45px;
+	}
+
+	.about-section {
+		text-align: center;
+		padding: 0;
 	}
 
 	.project-description {
