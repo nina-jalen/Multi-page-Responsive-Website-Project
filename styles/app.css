@@ -29,6 +29,10 @@ h2 {
 	font-size: 64px;
 }
 
+h4 {
+	font-size: 48px;
+}
+
 p {
 	font-weight: normal;
 	font-size: 16px;
@@ -164,6 +168,48 @@ nav a:hover {
 /* we can also put active into li */
 /* select both of them, same styling */
 
+/* footer */
+
+/* footer contact box */
+
+footer .contact-box {
+	background: var(--secondary-color);
+	padding: 30px 120px;
+	border-radius: 10px;
+}
+
+footer .contact-box p {
+	margin: 0;
+}
+
+/* footer mail */
+
+footer .email-link {
+	text-decoration: none;
+	color: #272142;
+	text-align: center;
+	font-size: 24px;
+}
+
+footer .email-link:hover {
+	color: var(--branding-color);
+}
+
+footer .social-links a {
+	margin: 0 20px;
+	color: var(--branding-color);
+	background: var(--secondary-color);
+	padding: 10px 14px;
+	font-size: 18px;
+	border-radius: 50%;
+	transition: all 200ms ease-in;
+}
+
+footer .social-links a:hover {
+	color: var(--secondary-color);
+	background-color: var(--branding-color);
+}
+
 /* media */
 
 @media (max-width: 992px) {
@@ -179,6 +225,10 @@ nav a:hover {
 
 	h2 {
 		font-size: 45px;
+	}
+
+	h4 {
+		font-size: 26px;
 	}
 
 	.content-section {
@@ -198,5 +248,9 @@ nav a:hover {
 	nav a {
 		font-size: 14px;
 		margin: 5px;
+	}
+
+	footer .contact-box {
+		padding: 30px;
 	}
 }
