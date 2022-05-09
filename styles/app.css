@@ -107,6 +107,45 @@ p {
 	padding: 120px 60px 0;
 }
 
+.logo {
+	max-height: 40px;
+}
+
+/* nav bar */
+
+nav {
+	padding: 20px 0;
+}
+
+nav ul {
+	padding: 0;
+	margin: 0;
+}
+
+nav li {
+	display: inline;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	line-height: 45px;
+	margin-left: 15px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #272142;
+	transition: all 200ms ease-in-out;
+}
+
+nav li.active a,
+nav a:hover {
+	color: var(--branding-color);
+}
+/* we can also put active into li */
+/* select both of them, same styling */
+
+/* media */
+
 @media (max-width: 992px) {
 	h1 {
 		font-size: 45px;
@@ -134,5 +173,10 @@ p {
 
 	.hero {
 		padding: 80px 20px;
+	}
+
+	nav a {
+		font-size: 14px;
+		margin: 5px;
 	}
 }
