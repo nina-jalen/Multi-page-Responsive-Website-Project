@@ -111,7 +111,27 @@ p {
 	max-height: 40px;
 }
 
-/* nav bar */
+/* nav bar about */
+
+.nav {
+	padding: 20px 0;
+}
+
+.active,
+.nav-link:hover {
+	color: var(--branding-color) !important;
+	/* overwrite the BS CSS * or use BS class (.navbar-expand-lg .navbar-nav .nav-link) */
+}
+
+.nav-item {
+	padding: 30px;
+}
+
+.nav-link {
+	color: #272142;
+}
+
+/* nav bar homepage */
 
 nav {
 	padding: 20px 0;
