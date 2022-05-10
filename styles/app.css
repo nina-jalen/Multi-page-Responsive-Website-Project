@@ -29,7 +29,7 @@ h2 {
 	font-size: 64px;
 }
 
-h4 {
+h3 {
 	font-size: 48px;
 }
 
@@ -42,7 +42,7 @@ p {
 .hero {
 	background: var(--secondary-color);
 	text-align: center;
-	padding: 100px 20px;
+	padding: 80px 20px;
 	/* padding to push the welcome content lower on the view field */
 }
 
@@ -62,7 +62,7 @@ p {
 }
 
 .content-container {
-	padding: 100px 20px;
+	padding: 60px 20px;
 }
 
 .content h1 {
@@ -119,6 +119,7 @@ p {
 
 .nav {
 	padding: 20px 0;
+	justify-content: flex-end !important;
 }
 
 .active,
@@ -239,10 +240,6 @@ footer .social-links a:hover {
 	.project-description {
 		padding: 0;
 		text-align: center;
-	}
-
-	.hero {
-		padding: 80px 20px;
 	}
 
 	nav a {
